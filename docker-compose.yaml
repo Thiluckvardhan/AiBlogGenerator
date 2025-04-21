@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  react-app:
+    build:
+      context: .
+    ports:
+      - "5050:8080"
+    networks:
+      - Blognetwork
+networks:
+  Blognetwork:
+    driver: bridge
