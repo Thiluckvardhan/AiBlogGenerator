@@ -52,7 +52,7 @@ const BlogGenerator = () => {
               <div className="bg-blog-accent p-6 rounded-full mb-4">
                 <Sparkles className="h-8 w-8 text-blog-primary" />
               </div>
-              <h3 className="text-xl font-medium mb-2">Generate Your First Blog</h3>
+              <h3 className="text-xl font-medium mb-2">Generate Your Blog</h3>
               <p className="text-gray-500 max-w-md">
                 Fill out the form on the left with your blog details and click "Generate Blog" to create AI-powered content.
               </p>
