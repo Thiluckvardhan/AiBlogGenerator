@@ -59,7 +59,7 @@ const BlogForm = ({ onGenerate, isGenerating }: BlogFormProps) => {
       
       <div className="space-y-4">
         <div>
-          <Label htmlFor="title">Blog Title</Label>
+          <Label htmlFor="title.">Blog Title</Label>
           <Input
             id="title"
             name="title"
